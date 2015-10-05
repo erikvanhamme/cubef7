@@ -20,7 +20,7 @@
 ifneq ($(strip $(findstring STM32F7,$(use))),)
 
 # Set the arch for the build.
-arch := -mcpu=cortex-m7 -mthumb -mfloat-abi=softfp -mfpu=fpv4-sp-d16
+arch := -mcpu=cortex-m7 -mthumb -mfloat-abi=softfp -mfpu=fpv5-sp-d16
 
 # --- Drivers -----------------------------------------------------------------
 
