@@ -31,7 +31,7 @@ arch := -mcpu=cortex-m7 -mthumb -mfloat-abi=softfp -mfpu=fpv5-sp-d16
 include cubef7/cmsis.mk
 
 # HAL module.
-#include cubef7/hal.mk
+include cubef7/hal.mk
 
 # --- Middlewares -------------------------------------------------------------
 
